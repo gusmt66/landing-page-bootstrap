@@ -1,0 +1,22 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	font-size: 14px;
+    line-height: 1.67em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: .3s;
+  &:hover,
+  &:active,
+  &:focus{
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+img {
+  max-width: 100%;
+}
